@@ -1,0 +1,49 @@
+{
+    "measurements": [
+        {
+            "metric": "test",
+            "tags": [
+                {
+                    "name": "city",
+                    "value": "hamburg"
+                },
+                {
+                    "name": "id",
+                    "value": "123"
+                }
+            ],
+            "time": 1377986432000,
+            "value": 2.45
+        },
+        {
+            "metric": "test",
+            "tags": [
+                {
+                    "name": "city",
+                    "value": "berlin"
+                },
+                {
+                    "name": "id",
+                    "value": "124"
+                }
+            ],
+            "time": 1377986432001,
+            "value": 2.55
+        },
+        {
+            "metric": "test",
+            "tags": [
+                {
+                    "name": "city",
+                    "value": "vienna"
+                },
+                {
+                    "name": "id",
+                    "value": "125"
+                }
+            ],
+            "time": 1377986432002,
+            "value": 4.99
+        }
+    ]
+}
