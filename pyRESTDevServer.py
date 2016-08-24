@@ -37,9 +37,9 @@ handler.setFormatter(formatter)
 handler.setLevel(logLevel)
 logger.addHandler(handler)
 
-@app.route('/write', methods=['POST'])
+@app.route('/write', methods=['POST','PUT','GET'])
 def handle_write():
-    logger.info("Got a POST request.")
+    logger.info("Got a %s request." % (flask.request.method))
     if flask.request.json:
         body = flask.request.get_json()
         logger.info("Got a json body with the following content:")
