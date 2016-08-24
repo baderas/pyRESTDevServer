@@ -48,7 +48,7 @@ def handle_write():
 
 @app.errorhandler(404)
 def not_found(error):
-    return  flask.make_response(jsonify({'error': 'Not found'}), 404)
+    return  flask.make_response(flask.json.jsonify({'error': 'Not found'}), 404)
 
 if __name__ == '__main__':
      app.run(debug=True) 
