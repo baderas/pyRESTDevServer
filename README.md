@@ -10,3 +10,5 @@ A small python server that helps developing/debugging a REST client. It simply p
 ## Usage
 * Start Server: `./pyRESTDevServer.py`
 * Test with curl: `curl -i -H "Content-Type: application/json" -X POST -d @test.json http://localhost:5000/write`
+
+![Image that shows an example.](example.png "Example output of pyRESTDevServer.py.")
